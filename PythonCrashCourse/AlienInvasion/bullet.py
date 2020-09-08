@@ -19,10 +19,6 @@ class Bullet(Sprite):
 		#Store the bullet's position as a decimal value
 		self.y = float(self.rect.y)
 
-		#Bullet fkag
-		self.bullet_flag = False
-
-
 	def update(self):
 		"""Move the bullet up the screen"""
 		#Update the decimal position of the bullet
